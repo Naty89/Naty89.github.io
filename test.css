@@ -1,0 +1,42 @@
+body {
+  background-image: url(dogs.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+h1  {
+  text-align: center;
+}
+div#myargument {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -50px;
+  text-align: center;
+  font-size: xx-large;
+  color: darkblue;
+}
+
+button  {
+  padding: 10px 100px;
+  background-color: aqua;
+  font: caption;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
