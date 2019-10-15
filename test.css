@@ -19,10 +19,11 @@ div#myargument {
   color: darkblue;
 }
 
-button  {
+div#mybutton {
   padding: 10px 100px;
   background-color: aqua;
   font: caption;
+  text-align; right;
 }
 
 table {
