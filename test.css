@@ -6,7 +6,7 @@ body {
 h1  {
   text-align: center;
 }
-div#myargument {
+#myargument {
   display: inline-block;
   height: 100px;
   width: 100%;
@@ -19,7 +19,7 @@ div#myargument {
   color: darkblue;
 }
 
-div#mybutton {
+#mybutton {
   padding: 10px 100px;
   background-color: aqua;
   font: caption;
@@ -30,6 +30,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  text-align: left;
 }
 
 td, th {
